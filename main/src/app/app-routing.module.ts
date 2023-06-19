@@ -24,7 +24,7 @@ const routes: Routes = [
           import('./pages/ui-components/ui-components.module').then(
             (m) => m.UicomponentsModule
           ),
-      },
+      }, 
       {
         path: 'extra',
         loadChildren: () =>
@@ -41,6 +41,19 @@ const routes: Routes = [
         loadChildren: () =>
           import('./pages/authentication/authentication.module').then(
             (m) => m.AuthenticationModule
+          ),
+      },
+    ],
+  },
+  {
+    path: '',
+    component: BlankComponent,
+    children: [
+      {
+        path: 'businesses',
+        loadChildren: () =>
+          import('./pages/businesses/businesses.module').then(
+            (m) => m.BusinessesModule
           ),
       },
     ],

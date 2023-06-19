@@ -1,0 +1,19 @@
+.business-item {
+
+    &.col-sm-6 {
+        height: 490px;
+
+    }
+    &.col-lg-4 {
+        height: initial;
+
+    }
+  
+   .title {
+    font-size: 32px;
+   }
+   .description {
+    font-size: 16px;
+    margin: 0;
+   }
+}

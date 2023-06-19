@@ -7,7 +7,6 @@ import { AppListsComponent } from './lists/lists.component';
 import { AppMenuComponent } from './menu/menu.component';
 import { AppTooltipsComponent } from './tooltips/tooltips.component';
 import { AppClientsComponent } from './clients/clients.component';
-import { AppBusinessesComponent } from './businesses/businesses.component';
 
 export const UiComponentsRoutes: Routes = [
   {
@@ -21,10 +20,7 @@ export const UiComponentsRoutes: Routes = [
         path: 'clients',
         component: AppClientsComponent,
       },
-      {
-        path: 'businesses',
-        component: AppBusinessesComponent,
-      },
+
       {
         path: 'chips',
         component: AppChipsComponent,

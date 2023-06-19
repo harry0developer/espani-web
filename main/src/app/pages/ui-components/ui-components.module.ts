@@ -18,7 +18,6 @@ import { AppMenuComponent } from './menu/menu.component';
 import { AppTooltipsComponent } from './tooltips/tooltips.component';
 import { MatNativeDateModule } from '@angular/material/core';
 import { AppClientsComponent } from './clients/clients.component';
-import { AppBusinessesComponent } from './businesses/businesses.component';
 
 @NgModule({
   imports: [
@@ -36,8 +35,7 @@ import { AppBusinessesComponent } from './businesses/businesses.component';
     AppListsComponent,
     AppMenuComponent,
     AppTooltipsComponent,
-    AppClientsComponent,
-    AppBusinessesComponent
+    AppClientsComponent
   ],
 })
 export class UicomponentsModule {}
